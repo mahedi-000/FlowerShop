@@ -226,6 +226,7 @@ header {
   background-position: center;
   background-size: cover;
   gap: 20px;
+  margin-bottom: 128px;
 }
 
 .latest-deals h2 {
@@ -258,4 +259,29 @@ header {
 .email::placeholder {
   font-size: 16px;
   color: #00000080;
+}
+.footer {
+  background-color: #111010;
+}
+.footer {
+  text-align: center;
+  padding:130px 120px;
+}
+.footer h1 span {
+  color: #e55473;
+}
+.footer h1 {
+  color: white;
+  margin-bottom: 15px;
+}
+.footer p {
+  color: #FFFFFFE5;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.footer h5 {
+  color: #ffffff66;
+  font-size: 16px;
+  font-weight: 400;
 }
