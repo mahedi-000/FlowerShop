@@ -185,3 +185,77 @@ header {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
+.media h1 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.media p {
+  color: #27272799;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.parent-flowers {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 70px;
+}
+.flowers {
+  width: 340px;
+  height: 300px;
+  gap: 10px;
+}
+.flowers img {
+  width: 270px;
+  height: auto;
+  object-fit: cover;
+}
+.latest-deals {
+  background-image: url("../Asset/Rectangle\ 9.png");
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  gap: 20px;
+}
+
+.latest-deals h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+}
+.latest-deals p {
+  color: #27272799;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.email {
+  width: 500px;
+  height: 65px;
+  outline: none;
+  padding-left: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.email::placeholder {
+  font-size: 16px;
+  color: #00000080;
+}
