@@ -127,3 +127,61 @@ header {
   color: #272727;
   font-weight: 700;
 }
+.service {
+  padding: 60px 90px;
+  background-color: #2727270d;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.features p {
+  color: #27272799;
+  font-size: 18px;
+  font-weight: 600;
+}
+.discount-bg {
+  background-color: #e554730d;
+}
+.discount {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.div-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.div-left h1 {
+  text-align: center;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.div-left p {
+  color: #27272799;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.div-left button {
+  align-items: center;
+}
+.div-right img {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
